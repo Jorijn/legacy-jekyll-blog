@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Moving forward on a burnout"
+---
+
+h1. {{ page.title }}
+
+p(meta). July 26, 2011
+
+Last year I suffered breakdown. I was at a mental and physical low. I was entirely to blame for my body failing on me and I started hyperventilating. Being scared to death changed something in me, this would never happen again. I came out stronger but just as stupid as I was before. I work way too hard on the many things I love doing. I love helping out startups, being the photographer at concerts, I love my job and I love my friends even more. I'm doing everything I can and sometimes I forget about my own health. Mentally and physically. I have to do something.
+
+I tried yoga and meditation but I stopped doing both a few months ago. Feeling fine was good enough for me, not anymore. I find myself tired again, tired of everything. This life isn't working anymore. I really need to take back control because that's what's been bothering me for months now. I don't feel like being in control of my own life and for people like me that's the stuff the keeps me awake at night. Hours go by staring at the ceiling before I eventually fall asleep. Those are the moments I start wondering what the heck I should do. I decided on a plan.
+
+I'm going to drop all of my freelance work over the coming months except for a little project or two which don't require a lot of time. Instead of doing work I'm going to start practicing yoga again and I'm going to attempt meditation. I'm going to start running and I'm going to spent less of my time on the internet. I'm going to read books and hang out with friends more. That's the plan and I'm absolutely determined to achieve my goals of gaining weight, getting healthier and being a more focussed and happy person.

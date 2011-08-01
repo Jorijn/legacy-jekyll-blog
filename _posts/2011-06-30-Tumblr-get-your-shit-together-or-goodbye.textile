@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Tumblr: get your shit together or goodbye"
+---
+
+h1. {{ page.title }}
+
+p(meta). June 30, 2011
+
+I've been using Tumblr since the very start. I still think Tumblr is pretty much WordPress for dummies. You get presented with a very simple interface and you get to 'follow' people like on Twitter. It's a great way for people to get a blog up and running within a few minutes and actually maintain it by posting new stuff every day. So, that's all great. Tumblr is a good idea which is fairly well executed. There are huge problems arising, though. 
+
+Now that Tumblr is one of the biggest websites on the planet, a lot of problems with stability and customer support are driving users insane. I know some users have very high expectations by wanting Tumblr to host their 50.000 visitors a month website for free. But at least Tumblr should come up with a solution for these users, too. Albeit a paid model so Tumblr can upgrade their servers or hire better engineers to optimize stability.
+
+I wanted to write an entire piece about the customer support of Tumblr but I think this Tweet speaks for itself.
+
+!../images/blog/20110630/twitter.png!
+
+Tumblr has gone so far as hiring people who don't give a shit about Tumblr outside of their 9 to 5 window where they do 'work'. Tumblr has built a following on the fact that their customer support rocks (and many more things of course). Buzz is a perfect example of how customer support has degraded over the past few months.
+
+You know, I really want to continue to love Tumblr as a place to discover new content, meet people and share the things I like. Unfortunately it's increasingly hard due to stupid interface changes which no one gets, the frequent downtime and the atrocious customer support. Did Tumblr grew too big for their own good? There's only one way to fix a company like this: they need to turn a profit soon and I think the only solution is to introduce ads and/or offer a Tumblr Pro account for the people who do want to host their 50k/month website. I even think people with smaller blogs would like to pay a little fee if that fixes at least the stability problems.
+
+As for me, I'm making a list of the blogs still on Tumblr I really want to follow. I'll grab their RSS feeds and put them in Google Reader. I liked the Tumblr dashboard way better but I'm growing tired of the Tumblbeasts.

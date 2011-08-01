@@ -1,0 +1,7 @@
+---
+layout: page
+title: "Projects"
+---
+
+"8 bit Robots":http://8bitrobots.nl is a Dutch podcast on technology, lifehacking and everything else we want to talk about.
+"My Read It Later list":http://readlist.mijndertstuij.nl is a list of the items I store in Read it Later. It contains some interesting links.

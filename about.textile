@@ -1,0 +1,10 @@
+---
+layout: page
+title: "About"
+---
+
+Mijndert works at "Rhinofly":http://rhinofly.nl/. When he's not working his ass off, he's probably listening to music, having a beer with friends or geeking out on one of his "projects":{{ site.url }}/blog/projects.html. He'd worked on some pretty cool stuff before and is planning to do more of that in the future. His biggest dream is to move to London one day.
+
+Other than being a great guy he's also more than willing to help out startups achieve their goals by lending them his expertise. He's pretty good with high performance IT infrastructure to make any web app go ??woosh??.
+
+If you need any more information on Mijndert, head over to his "LinkedIn":http://www.linkedin.com/in/mijndertstuij profile or talk to him on "Twitter":http://twitter.com/mijndert.

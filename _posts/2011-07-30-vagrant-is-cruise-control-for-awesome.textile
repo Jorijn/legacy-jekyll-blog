@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Vagrant is cruise control for awesome"
+---
+
+h1. {{ page.title }}
+
+p(meta). July 30, 2011
+
+Virtual environments are changing my workflow and those of millions around the world. One day, everything will be virtualized. Okay, maybe not. Anyway, we all think of VMware when we hear about virtual machines (or Xen if you're a sysadmin). VMware has very good software on the Mac called Fusion. It's really fast but it also takes up a lot of pixels on the screen. Pixels I could use for, I don't know, web development? On top of that I always have a Terminal session or two running so I went looking for a way to create and destroy virtual machines ON THE COMMAND LINE. For added geek credits.
+
+That's where "Vagrant":http://vagrantup.com/ comes in. Just look at how easy it is.
+
+{% highlight bash %}
+$ gem install vagrant
+$ vagrant box add base http://files.vagrantup.com/lucid32.box
+$ vagrant init
+$ vagrant up
+$ vagrant ssh
+{% endhighlight %}
+
+Vagrant requires you to install "VirtualBox":http://www.virtualbox.org/ which is a completely free alternative to VMware. Every VirtualBox VM you might have works with Vagrant. Let's go through the steps a little bit.
+
+First off we're installing a "gem":http://rubygems.org/ for Vagrant which is basically a bunch of scripts that calls VirtualBox to do awesome stuff.
+
+{% highlight bash %}
+$ gem install vagrant
+{% endhighlight %}
+
+Now we you can download an image file and initiate the directory in which your VM will run.
+
+{% highlight bash %}
+$ vagrant box add base http://files.vagrantup.com/lucid32.box
+$ vagrant init
+{% endhighlight %}
+
+To bring the new virtual machine up and running you execute the following command. After that you can SSH into your box just like you would with any server.
+
+{% highlight bash %}
+$ vagrant up
+$ vagrant ssh
+{% endhighlight %}
+
+The coolest bit of this geekery is the fact that you can use Chef or Puppet to do unattended software installs and other common tasks whenever your VM boots. So, I recommend you give it a try. You just might get hooked and never look at a GUI again.

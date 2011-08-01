@@ -1,0 +1,14 @@
+---
+layout: post
+title: "The iPad never got out of the way"
+---
+
+h1. {{ page.title }}
+
+p(meta). July 9, 2011
+
+When the iPad came out I was a huge critic. Why would anyone want a big iPod touch with a relatively low screen resolution? But when I saw friends using it as a gaming and reading device I shelled out the money and got one myself. The 16GB wifi only version. I never regretted not getting the 3G version as I'm almost always near a wifi hotspot. And when I'm not, I probably don't want to bring my iPad.
+
+I've been using my iPad for over a year now. The first apps I bought were Reeder and Read it Later. The iPad is a brilliant for quickly scanning RSS feeds and reading the interesting articles in the Read it later app. And let's just cut to the chase here, that's all I really did with my iPad. Sure, I played some games, tweeted some tweets and browsed the web a few times. Hell, I even wrote a blogpost or two on the iPad. I've been thinking why I don't use my iPad that much, though. And I think I figured it out.
+
+The iPad never really got out of the way as Apple promised it would. The iPad is an always present device because of the weight, the huge bezel around the screen and, most importantly, the fact that you have to connect your iPad to iTunes to sync anything. And you know what? That low resolution screen, it's brilliant for short form reading but I found myself in a few situations where I would want some more pixels when using Safari for example. The iPad never became the device that I could pick up without thinking about it. It never became my go-to device for content consumption because it's "yet another device". Why pick up my iPad when I have my much more powerful, better screen MacBook Pro right in front of me? I'm sure a lot of my readers can name a few reasons, but they don't matter to me because I'm not the kind of person that thinks  tablets are awesome. Yet. I'm sure Apple will make the iPad better in the coming years and we'll see, I might even buy one some day. For now, I'm selling my iPad and who knows what might replace it.

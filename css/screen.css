@@ -1,0 +1,39 @@
+/* TODO
+- fix date
+http://zachholman.com/
+*/
+
+/* Global Reset */
+
+*{margin: 0;padding: 0;}
+
+/* Layout */
+
+.site{width: 800px;margin-top: 10px;}
+.header{width: 120px;float:left;position: fixed;left: 15px;top: 15px;}
+#home{width: 650px;float:right;}
+#post{width: 650px;float:right;margin-bottom: 30px;}
+div.highlight{margin-bottom:1.2em;}
+.footer{}
+
+/* Styling */
+
+body{font-family: Georgia, serif;-webkit-font-smoothing: antialiased;}
+h1,h2,h3,h4,h5{font-family: Helvetica, sans-serif;}
+a{color: #227CE8;}
+a:hover{text-decoration: none;}
+ul{list-style: none;}
+img{border: 0;border-top-left-radius: 7px;border-bottom-right-radius: 7px;-webkit-border-top-left-radius: 7px;-webkit-border-bottom-right-radius: 7px;-moz-border-radius-topleft: 7px;-moz-border-radius-bottomright: 7px;}
+
+.header h1{font-size: 17px;font-weight:bold;margin: 0 0 10px 0;}
+.header h1 a{text-decoration: none;color: #000000;}
+.header h1 a:hover{text-decoration: underline;}
+
+#post h1{border-bottom:1px solid #EEE;height:43px;}
+#post p{font-size: 18px;margin-bottom: 1.2em;line-height: 1.7em;}
+#post p.meta{color: #777;font-size: 15px;}
+
+ul.posts li{color: #777;clear: both;border-bottom:1px solid #EEE;padding: 5px 0px;height: 20px;font-size: 14px;}
+ul.posts a{float: left;text-decoration: none;}
+ul.posts a:hover{text-decoration: underline;}
+ul.posts span{float: right;color: #777;}
