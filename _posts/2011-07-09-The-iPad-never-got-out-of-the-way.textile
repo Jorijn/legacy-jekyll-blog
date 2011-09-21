@@ -3,10 +3,6 @@ layout: post
 title: "The iPad never got out of the way"
 ---
 
-h1. {{ page.title }}
-
-p(meta). July 9, 2011
-
 When the iPad came out I was a huge critic. Why would anyone want a big iPod touch with a relatively low screen resolution? But when I saw friends using it as a gaming and reading device I shelled out the money and got one myself. The 16GB wifi only version. I never regretted not getting the 3G version as I'm almost always near a wifi hotspot. And when I'm not, I probably don't want to bring my iPad.
 
 I've been using my iPad for over a year now. The first apps I bought were Reeder and Read it Later. The iPad is a brilliant for quickly scanning RSS feeds and reading the interesting articles in the Read it later app. And let's just cut to the chase here, that's all I really did with my iPad. Sure, I played some games, tweeted some tweets and browsed the web a few times. Hell, I even wrote a blogpost or two on the iPad. I've been thinking why I don't use my iPad that much, though. And I think I figured it out.

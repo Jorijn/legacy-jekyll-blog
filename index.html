@@ -6,12 +6,10 @@ title: Jorijn Schrijvershof
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}
-    <li>
-
-		<span>{{ post.date | date:"%B %d, %Y" }}</span> 
-
-		<a href="{{ post.url }}">{{ post.title }}</a>
-	</li>  
+    <div class="grid_3">
+		<h1 class="index_post_title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+		<p class="index_post_paragraph">{{ post.content | strip_html | truncatewords:25 }}</p>
+	</div>
     {% endfor %}
   </ul>
 </div>

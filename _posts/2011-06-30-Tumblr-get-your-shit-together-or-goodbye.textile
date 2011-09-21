@@ -3,10 +3,6 @@ layout: post
 title: "Tumblr: get your shit together or goodbye"
 ---
 
-h1. {{ page.title }}
-
-p(meta). June 30, 2011
-
 I've been using Tumblr since the very start. I still think Tumblr is pretty much WordPress for dummies. You get presented with a very simple interface and you get to 'follow' people like on Twitter. It's a great way for people to get a blog up and running within a few minutes and actually maintain it by posting new stuff every day. So, that's all great. Tumblr is a good idea which is fairly well executed. There are huge problems arising, though. 
 
 Now that Tumblr is one of the biggest websites on the planet, a lot of problems with stability and customer support are driving users insane. I know some users have very high expectations by wanting Tumblr to host their 50.000 visitors a month website for free. But at least Tumblr should come up with a solution for these users, too. Albeit a paid model so Tumblr can upgrade their servers or hire better engineers to optimize stability.

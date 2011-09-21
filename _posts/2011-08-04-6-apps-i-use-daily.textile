@@ -3,10 +3,6 @@ layout: post
 title: "6 apps I use daily"
 ---
 
-h1. {{ page.title }}
-
-p(meta). August 04, 2011
-
 h2. Safari
 
 I've been a Google "Chrome":http://google.com/chrome user since the very first version but when "Safari":http://apple.com/safari 5 was released I went back to Apple. I love native Mac OS X apps and Safari is definitely one of them. Safari 5.1 even has a nifty 'read it later' kind of feature that I use frequently. The memory usage of the Safari Renderer process sometimes catches fire and makes my browser a bit slow, but I'm sure Apple will fix that in Mac OS 10.7.1.
