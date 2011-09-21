@@ -18,10 +18,6 @@
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/syntax.css">
 	
-	<!-- fonts -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
-	
 	<!-- scripts -->
 	<script src="/js/libs/modernizr-2.0.min.js"></script>
 	<script src="/js/libs/respond.min.js"></script>
@@ -33,14 +29,20 @@
 <body>
 
 <div class="container container_12">
-	<header>
-		
+	<header class="grid_12">
+		<h1 class="homepage"><a href="/">Jorijn Schrijvershof</a></h1>
+		<menu>
+			<a href="/">Home</a> &bull;
+			<a href="/about.html">About</a> &bull;
+			<a target="_blank" href="http://twitter.com/Jorijn">Twitter</a> &bull;
+			<a target="_blank" href="/atom.xml">RSS</a> 
+		</menu>
 	</header>
 	<div id="main" role="main">
 		{{ content }}
 	</div>
-	<footer>
-		
+	<footer class="grid_12">
+		<p align="right">I made this with <a target="_blank" href="https://github.com/mojombo/jekyll">Jekyll</a>, you can find the source of my blog on <a target="_blank" href="https://github.com/Jorijn/blog">My GitHub</a>.</p>
 	</footer>
 </div> <!--! end of #container -->
 
