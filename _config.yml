@@ -2,7 +2,7 @@ safe:        false
 auto:        false
 server:      false
 server_port: 4000
-destination: /Users/mijndert/Sites/mijndertstuij-nl
+destination: /Library/WebServer/Documents/blog
 
 future:      true
 lsi:         false
