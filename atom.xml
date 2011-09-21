@@ -4,22 +4,22 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Mijndert Stuij</title>
- <link href="http://mijndertstuij.nl/blog/atom.xml" rel="self"/>
- <link href="http://mijndertstuij.nl/blog"/>
+ <title>Jorijn Schrijvershof</title>
+ <link href="http://blog.jorijn.com/atom.xml" rel="self"/>
+ <link href="http://blog.jorijn.com"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://mijndertstuij.nl/blog</id>
+ <id>http://blog.jorijn.com</id>
  <author>
-   <name>Mijndert Stuij</name>
-   <email>mijndert@mijndertstuij.nl</email>
+   <name>Jorijn Schrijvershof</name>
+   <email>jorijn@jorijn.com</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://mijndertstuij.nl/blog{{ post.url }}"/>
+   <link href="http://blog.jorijn.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://mijndertstuij.nl/blog{{ post.id }}</id>
+   <id>http://blog.jorijn.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

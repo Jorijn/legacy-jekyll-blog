@@ -1,32 +1,48 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
-   <meta name="author" content="Mijndert Stuij" />
-   <link href="{{ site.url }}/atom.xml" rel="alternate" title="Mijndert Stuij's blog" type="application/atom+xml" />
-   <link rel="stylesheet" href="{{ site.url }}/css/syntax.css" type="text/css" />
-   <link rel="stylesheet" href="{{ site.url }}/css/screen.css" type="text/css" media="screen, projection" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>{{ page.title }}</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/libs/modernizr-2.0.min.js"></script>
+	<script src="js/libs/respond.min.js"></script>
+	
+	<link href="{{ site.url }}/atom.xml" rel="alternate" title="Jorijn Schrijvershof" type="application/atom+xml">
 </head>
 <body>
 
-<div class="site">
-  
-  <div class="header">
-    <h1><a href="{{ site.url }}/">Mijndert Stuij</a></h1>
-	<a href="{{ site.url }}/about.html"><img src="{{ site.url }}/images/user.jpg"></a>
-	<a href="{{ site.url }}/projects.html"><img src="{{ site.url }}/images/bulb.jpg"></a>
-	<a href="{{ site.url }}/atom.xml"><img src="{{ site.url }}/images/rss.jpg"></a>
-  </div>
-  
-  {{ content }}
-  
-  <div class="footer">
-    
-  </div>
-</div>
+<div id="container">
+	<header>
+		
+	</header>
+	<div id="main" role="main">
+		{{ content }}
+	</div>
+	<footer>
+		
+	</footer>
+</div> <!--! end of #container -->
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+<script src="js/script.js"></script>
+<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
 </body>
 </html>
