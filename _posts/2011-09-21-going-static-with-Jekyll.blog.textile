@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Going static with Jekyll"
+---
+
+In the past I've switched many times, I was unable to maintain enduring satisfaction regarding the blogging software to use. In addition to this I also changed the theme at least a million times. What you are looking at now is a HTML5 theme build from static files hosted on Amazon S3. 
+
+You aren't seeing the backend, its a ruby gem called "Jekyll":https://github.com/mojombo/jekyll. Using the concept of "Blogging like a hacker", Jekyll enables you to write your blogposts in your favorite text editor, TextMate for instance - and publish it from the command line when you're done.
+
+Its fairly easy to try out for yourself. It only requires you to already have a ruby environment running. This is something all Mac OS X users have by default. Start up your favorite terminal application and run the following gem command: 
+
+{% highlight bash linenos %}
+$ sudo gem install jekyll
+{% endhighlight %}
+
+Check out the source from "my blog":https://github.com/Jorijn/blog to see how this post is actually made. Hopefully I can maintain this one for some time. 
