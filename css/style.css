@@ -121,7 +121,7 @@ h1.post {
     margin: 0;
 }
 
-.recent_posts {
+div.recent_posts {
 	font-size: 14px;
 	font-weight: normal;
 	font-style: italic;
@@ -129,6 +129,15 @@ h1.post {
 	margin-bottom: 0;
 	text-align: right;
 	color: #BEBEBE;
+}
+
+h2.recent_posts {
+	font-size: 14px;
+	font-weight: normal;
+	font-style: italic;
+	color: #000;
+	margin: 0;
+	text-align: center;
 }
 
 h1.index_post_title_main {
