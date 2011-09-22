@@ -3,6 +3,7 @@ auto:        false
 server:      false
 server_port: 4000
 destination: /Library/WebServer/Documents/blog
+url:         http://blog.jorijn.com
 
 future:      true
 lsi:         false

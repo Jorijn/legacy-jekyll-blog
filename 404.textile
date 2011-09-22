@@ -1,0 +1,8 @@
+---
+layout: page
+title: FourOhFour
+---
+
+The page you requested doesn't exists. I'm very sorry for this as you probably were looking for something. I suggest you take a look at my archives and see if you can find the correct article there.
+
+"Take me there!":{{ site.url }}/archive.html
