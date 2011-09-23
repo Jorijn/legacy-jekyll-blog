@@ -1,27 +1,23 @@
 ---
 layout: default
 ---
-<article class="post grid_12">
-	<h1 class="post">{{ page.title }}</h1>
+<div id="home grid_12">
+	<article class="grid_8 post">
+		<h2 class="title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+		<p>{{ content }}</p>
+		<div class="meta">
+			<span><a href="http://blog.jorijn.com">Jorijn Schrijvershof</a></span> · 
+			<span>{{ page.date | date:"%B %d, %Y" }}</span> · 
+			<span>{{ page.content | number_of_words }} words</span>
+		</div>
+	</article>
 
-	{{ content }}
-	
-	<p><a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="Jorijn">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></p>
-</article>
-
-<!-- <div class="grid_2">
-	&nbsp;
-</div> -->
-
-<div class="clearfix"></div>
-<div class="recent_posts grid_12"></div>
-<h2 class="grid_12 recent_posts">Recent Posts</h2>
-<div class="recent_posts grid_12"></div>
-<div class="clearfix"></div>
-{% for post in site.posts limit:6 %}
-<div class="grid_2 small_post">
-	<h1 class="index_post_title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-	<span class="index_date_small">{{ post.date | date:"%B %d, %Y" }}</span>
-	<p class="index_post_paragraph">{{ post.content | textilize | strip_html | truncatewords:25 }} </p>
+	<sidebar class="grid_4">
+		<h2>...Recently</h2>
+	   {% for post in site.posts offset:0 limit:12 %}
+		{% if post.url != page.url %}
+		<p><span>{{ post.date | date:"%m %d %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></p>
+		{% endif %}
+	   {% endfor %}
+	</sidebar>
 </div>
-{% endfor %}
