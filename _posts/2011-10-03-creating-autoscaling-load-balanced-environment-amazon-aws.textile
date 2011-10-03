@@ -50,16 +50,16 @@ Please note that I have my minimum size at zero. I have a normal instance runnin
 Next I'm going to create a policy which basically says "up me one instance". Later on I'll connect this to CloudWatch. 
 
 {% highlight bash %}
-as-put-scaling-policy policy-up --auto-scaling-group cfg-autoscale-group --adjustment=1 --type ChangeInCapacity --cooldown 300 -I accesskey -S 'secretkey' --region eu-west-1
+$ as-put-scaling-policy policy-up --auto-scaling-group cfg-autoscale-group --adjustment=1 --type ChangeInCapacity --cooldown 300 -I accesskey -S 'secretkey' --region eu-west-1
 {% endhighlight %}
 
 Lets to the same for downscaling.
 
 {% highlight bash %}
-as-put-scaling-policy policy-up --auto-scaling-group cfg-autoscale-group --adjustment=-1 --type ChangeInCapacity --cooldown 300 -I accesskey -S 'secretkey' --region eu-west-1
+$ as-put-scaling-policy policy-up --auto-scaling-group cfg-autoscale-group --adjustment=-1 --type ChangeInCapacity --cooldown 300 -I accesskey -S 'secretkey' --region eu-west-1
 {% endhighlight %}
 
-h3. Verdict
+h3. Done!
 
 Thats it. When you completed all of the above commands you should be able to connect these policies to CloudWatch alarms. I have my up scaling policy bound to an average of 70% CPU usage for at least five minutes.
 
