@@ -111,3 +111,7 @@ header {
 #archive .small_preview {
 	font-size: 14px;
 }
+
+.post_icons {
+	text-align: right;
+}

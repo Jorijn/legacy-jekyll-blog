@@ -3,7 +3,7 @@ layout: post
 title: "Combining styles and scripts with Apache"
 ---
 
-Modern browsers allow four concurrent requests to any domain. This should be enough but common practice points out this often slows large websites down significantly. Lets have a look at my own "portfolio":http://www.jorijn.com/ which perfectly demonstrates this bad example. Don't worry, I'll change this eventually.
+Modern browsers allow four concurrent requests to any domain. This should be enough but common practice points out that this often slows large websites down significantly. Lets have a look at my own "portfolio":http://www.jorijn.com/ which perfectly demonstrates this bad example. Don't worry, I'll change this eventually.
 
 {% highlight html %}
 <!-- javascripts -->
