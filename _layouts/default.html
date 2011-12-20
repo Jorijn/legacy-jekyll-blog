@@ -37,11 +37,37 @@
 	<link href="http://feeds.feedburner.com/jorijnschrijvershof" rel="alternate" title="Jorijn Schrijvershof" type="application/rss+xml">
 </head>
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=311988992166878";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="container container_12">
+	<a target="_blank" href="https://github.com/Jorijn/blog"><img alt="Fork me on GitHub" src="https://a248.e.akamai.net/assets.github.com/img/7afbc8b248c68eb468279e8c17986ad46549fb71/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" style="position: absolute; top: 0; right: 0; border: 0;"></a>
 	<header class="grid_12"></header>
 	<div id="main" role="main">
+		<div id="home grid_12">
 		{{ content }}
+		<sidebar class="grid_3">
+			<div class="about">
+				<h2>...About Jorijn</h2>
+				<img src="/images/profile.jpg">
+				<p>Your average day web developer who likes to know everything about everything. Saving the world by creating more awesomeness every day. I speak fluid jQuery.</p>
+
+				<a href="https://twitter.com/Jorijn" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @Jorijn</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+			<h2>...Recently</h2>
+		   {% for post in site.posts offset:0 limit:12 %}
+			{% if post.url != page.url %}
+			<p><a href="{{ post.url }}">{{ post.title }}</a> <span>&mdash; {{ post.date | date:"%m/%d/%Y" }}</span></p>
+			{% endif %}
+		   {% endfor %}
+		</sidebar>
+		</div>
 	</div>
 	<footer class="grid_12">
 		<p align="right">I made this with <a target="_blank" href="https://github.com/mojombo/jekyll">Jekyll</a>, you can find the source of this blog on <a target="_blank" href="https://github.com/Jorijn/blog">GitHub</a>.</p>

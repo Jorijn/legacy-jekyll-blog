@@ -87,16 +87,13 @@ footer {
 }
 
 sidebar {
-	text-align: right;
+/*	text-align: right;*/
+	text-align: justify;
 }
 
 sidebar h2 {
 	font-size: 20px;
 	margin-top: 12px;
-}
-
-sidebar p span {
-	font-size: 14px;
 }
 
 header {
@@ -108,10 +105,53 @@ header {
 	font-size: 18px;
 }
 
-#archive .small_preview {
-	font-size: 14px;
-}
-
 .post_icons {
 	text-align: right;
+}
+
+sidebar {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.side-post {
+	padding-top: 60px;
+}
+
+#author {
+	font-size: 0.8em;
+	padding: 10px;
+	border: 1px solid #E3E3E3;
+	background-color: #F7F7F7;
+	margin-bottom: 25px;
+	line-height: 20px;
+	border-radius: 5px;
+}
+
+#author h3 {
+	margin-left: 10px;
+}
+
+.about img {
+	max-width: 100px;
+	padding: 3px;
+	border: 1px solid #eee;
+	float: right;
+	background-color: #fff;
+	
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.about {
+	margin-bottom: 20px;
+}
+
+sidebar p span {
+	font-size: 11px;
+	color: #ccc;
+}
+
+.small_preview {
+	font-size: 16px;
 }

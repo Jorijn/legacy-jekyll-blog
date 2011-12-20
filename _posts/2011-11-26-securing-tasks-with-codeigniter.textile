@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Securing tasks with CodeIgniter"
+categories: []
+tags: []
 ---
 
 When you are developing large web-applications you often have to run several tasks asynchronously. For example: deleting old sessions or synchronizing data from external data sources. 
