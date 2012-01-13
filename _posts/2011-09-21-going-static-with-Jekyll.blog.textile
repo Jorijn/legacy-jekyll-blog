@@ -9,8 +9,8 @@ You aren't seeing the backend, its a ruby gem called "Jekyll":https://github.com
 
 Its fairly easy to try out for yourself. It only requires you to already have a ruby environment running. This is something all Mac OS X users have by default. Start up your favorite terminal application and run the following gem command: 
 
-{% highlight bash linenos %}
+<pre class="prettyprint">
 $ sudo gem install jekyll
-{% endhighlight %}
+</pre>
 
 Check out the source from "my blog":https://github.com/Jorijn/blog to see how this post is actually made. Hopefully I can maintain this one for some time. 
