@@ -48,12 +48,12 @@ end
 # this section represents laziness, fix with proper chef provisioning
 # uncomment a section and set it up as necessary
 Vagrant::Config.run do |config|
-    config.vm.provision :shell do |shell|
-      shell.inline = "sudo apt-get -y install python-pip"
-      shell.inline = "sudo gem install jekyll"
-      shell.inline = "sudo easy_install Pygments"
-    end
-  # import remote database
+    config.vm.provision :shell, :inline => "sudo apt-get -y install python-pip python-setuptools"
+    config.vm.provision :shell, :inline => "sudo gem install jekyll"
+    config.vm.provision :shell, :inline => "sudo gem install RedCloth"
+    config.vm.provision :shell, :inline => "sudo easy_install Pygments"
+
+      # import remote database
 #    config.vm.provision :shell do |shell|
 #        shell.inline = "mysqldump -hhostname -uusername -ppassword databasename > dump.sql && mysql -uroot -ppassword example_db_name < dump.sql"
 #    end

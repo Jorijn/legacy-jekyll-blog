@@ -2,3 +2,4 @@
 _site/
 _drafts/
 public/*
+.vagrant/machines/default/virtualbox/id
