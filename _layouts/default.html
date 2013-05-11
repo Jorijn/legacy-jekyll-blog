@@ -4,47 +4,34 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>{{ page.title }}</title>
-	<meta name="description" content="">
-	<meta name="author" content="Jorijn Schrijvershof">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	
-	<!-- google -->
-	<meta name="google-site-verification" content="E_Z6gliFw49mZ-X7ExSqtGbUfThgktOeEvCCy2Kd75c">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="">
+    <meta name="author" content="Jorijn Schrijvershof">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<!-- styles -->
-	<link rel="stylesheet" href="/css/reset.css">
-	<link rel="stylesheet" href="/css/960.css">
-	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/syntax.css">
-	
-	<!-- libraries -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script src="/js/libs/modernizr-2.0.min.js"></script>
-	<script src="/js/libs/respond.min.js"></script>
-	
-	<!-- scripts -->
-	<script src="/js/script.js"></script>
-	
-	<!-- typekit -->
-	<script type="text/javascript" src="http://use.typekit.com/xks5eqf.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	
-	<!-- google code prettify -->
-	<script src="/js/google-code-prettify/prettify.js"></script>
-	<link rel="stylesheet" href="/js/google-code-prettify/prettify.css">
-	
-	<!-- visitor tracking -->
-	<script src="http://mint.jorijn.com/?js"></script>
-	
-	<!-- other -->
-	<link href="http://feeds.feedburner.com/jorijnschrijvershof" rel="alternate" title="Jorijn Schrijvershof" type="application/rss+xml">
-	
-	<!-- mouseflow -->
-	<script type="text/javascript">document.write(unescape("%3Cscript src='" + (("https:" == document.location.protocol) ? "https" : "http") + "://e.mouseflow.com/projects/a0173a22-498e-43a5-8bb6-3cb99796e0bf.js' type='text/javascript'%3E%3C/script%3E"));</script>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/960.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- libraries -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/js/libs/respond.min.js"></script>
+
+    <!-- scripts -->
+    <script src="https://raw.github.com/scottjehl/Respond/master/respond.min.js"></script>
+
+    <!-- typekit -->
+    <script type="text/javascript" src="//use.typekit.net/sce0cna.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <!-- google code prettify -->
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+    <link rel="stylesheet" href="/js/google-code-prettify/prettify.css">
 </head>
 <body>
 <div id="fb-root"></div>
@@ -56,32 +43,31 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <div class="container container_12">
-	<a target="_blank" href="https://github.com/Jorijn/blog"><img alt="Fork me on GitHub" src="https://a248.e.akamai.net/assets.github.com/img/7afbc8b248c68eb468279e8c17986ad46549fb71/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" style="position: absolute; top: 0; right: 0; border: 0;"></a>
-	<header class="grid_12"></header>
-	<div id="main" role="main">
-		<div id="home grid_12">
-		{{ content }}
-		<sidebar class="grid_3">
-			<div class="about">
-				<h2>...About Jorijn</h2>
-				<img src="/images/profile.jpg">
-				<p>Your average day web developer who likes to know everything about everything. Saving the world by creating more awesomeness every day. I speak fluid jQuery.</p>
+    <a href="https://github.com/Jorijn/blog"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>    <header class="grid_12"></header>
+    <div id="main" role="main">
+        <div id="home grid_12">
+        {{ content }}
+        <sidebar class="grid_3">
+            <div class="about">
+                <h2>...About Jorijn</h2>
+                <img src="/images/profile.jpg">
+                <p>Your average day web developer who likes to know everything about everything. Saving the world by creating more awesomeness every day. I speak fluid jQuery.</p>
 
-				<a href="https://twitter.com/Jorijn" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @Jorijn</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-			</div>
-			<h2>...Recently</h2>
-		   {% for post in site.posts offset:0 limit:12 %}
-			{% if post.url != page.url %}
-			<p><a href="{{ post.url }}">{{ post.title }}</a> <span>&mdash; {{ post.date | date:"%m/%d/%Y" }}</span></p>
-			{% endif %}
-		   {% endfor %}
-		</sidebar>
-		</div>
-	</div>
-	<footer class="grid_12">
-		<p align="right">I made this with <a target="_blank" href="https://github.com/mojombo/jekyll">Jekyll</a>, you can find the source of this blog on <a target="_blank" href="https://github.com/Jorijn/blog">GitHub</a>.</p>
-	</footer>
+                <a href="https://twitter.com/Jorijn" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @Jorijn</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+            <h2>...Recently</h2>
+           {% for post in site.posts offset:0 limit:12 %}
+            {% if post.url != page.url %}
+            <p><a href="{{ post.url }}">{{ post.title }}</a> <span>&mdash; {{ post.date | date:"%m/%d/%Y" }}</span></p>
+            {% endif %}
+           {% endfor %}
+        </sidebar>
+        </div>
+    </div>
+    <footer class="grid_12">
+        <p align="right">I made this with <a target="_blank" href="https://github.com/mojombo/jekyll">Jekyll</a>, you can find the source of this blog on <a target="_blank" href="https://github.com/Jorijn/blog">GitHub</a>.</p>
+    </footer>
 </div> <!--! end of #container -->
 </body>
 </html>

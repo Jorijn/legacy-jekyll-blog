@@ -3,7 +3,7 @@ body {
 }
 
 pre {
-	background: none repeat scroll 0 0 #222222;
+    background: none repeat scroll 0 0 #222222;
     border-radius: 0.3em 0.3em 0.3em 0.3em;
     color: white;
     display: block;
@@ -21,9 +21,9 @@ code {
 }
 
 .highlight code {
-	background: transparent;
-	border: none;
-	font-size: 13px;
+    background: transparent;
+    border: none;
+    font-size: 13px;
 }
 
 h2 {
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5 {
 }
 
 a, a:visited, a:active {
-	border-bottom: 1px dotted #D3DFEE;
+    border-bottom: 1px dotted #D3DFEE;
     color: #004491;
     text-decoration: none;
 }
@@ -83,30 +83,30 @@ a, a:visited, a:active {
 }
 
 footer {
-	font-size: 14px;
+    font-size: 14px;
 }
 
 sidebar {
-/*	text-align: right;*/
-	text-align: justify;
+/*  text-align: right;*/
+    text-align: justify;
 }
 
 sidebar h2 {
-	font-size: 20px;
-	margin-top: 12px;
+    font-size: 20px;
+    margin-top: 12px;
 }
 
 header {
-	margin-top: 50px;
-	margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #archive h2.title {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 .post_icons {
-	text-align: right;
+    text-align: right;
 }
 
 sidebar {
@@ -115,43 +115,43 @@ sidebar {
 }
 
 .side-post {
-	padding-top: 60px;
+    padding-top: 60px;
 }
 
 #author {
-	font-size: 0.8em;
-	padding: 10px;
-	border: 1px solid #E3E3E3;
-	background-color: #F7F7F7;
-	margin-bottom: 25px;
-	line-height: 20px;
-	border-radius: 5px;
+    font-size: 0.8em;
+    padding: 10px;
+    border: 1px solid #E3E3E3;
+    background-color: #F7F7F7;
+    margin-bottom: 25px;
+    line-height: 20px;
+    border-radius: 5px;
 }
 
 #author h3 {
-	margin-left: 10px;
+    margin-left: 10px;
 }
 
 .about img {
-	max-width: 100px;
-	padding: 3px;
-	border: 1px solid #eee;
-	float: right;
-	background-color: #fff;
-	
-	margin-left: 10px;
-	margin-top: 20px;
+    max-width: 100px;
+    padding: 3px;
+    border: 1px solid #eee;
+    float: right;
+    background-color: #fff;
+    
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
 .about {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 sidebar p span {
-	font-size: 11px;
-	color: #ccc;
+    font-size: 11px;
+    color: #ccc;
 }
 
 .small_preview {
-	font-size: 16px;
+    font-size: 16px;
 }
