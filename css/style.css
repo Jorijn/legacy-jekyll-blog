@@ -164,3 +164,7 @@ sidebar p span {
 .small_preview {
     font-size: 16px;
 }
+
+article img {
+    max-width: 100%;
+}
