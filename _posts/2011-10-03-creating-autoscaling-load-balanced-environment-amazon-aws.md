@@ -13,17 +13,17 @@ I'm going to assume you know your way around AWS and the Management Console.
 
 ### Creating a template out of your running machine for duplication
 
-These commands will assume you have your secure certificates placed in @/mnt@. The following command will create a new image from your system and split it up in parts so you can upload it to S3.
+These commands will assume you have your secure certificates placed in `/mnt`. The following command will create a new image from your system and split it up in parts so you can upload it to S3.
 
 <?prettify?>
 	$ ec2-bundle-vol -d /mnt -k /mnt/pk-xxx.pem -c /mnt/cert-xxx.pem -u xxx -r i386
 
-Upon completion, upload them to a new bucket on S3. The @xxx@ should be replaced with your access- and private-key.
+Upon completion, upload them to a new bucket on S3. The `xxx` should be replaced with your access- and private-key.
 
 <?prettify?>
 	$ ec2-upload-bundle -b bucketnamehere -m /mnt/image.manifest.xml -a 'xxx' -s 'xxx'
 
-Register your bundle in the AMI menu in the EC2 tab. Location to the manifest should be something like @nameofyourbucket/image.manifest.xml@.
+Register your bundle in the AMI menu in the EC2 tab. Location to the manifest should be something like `nameofyourbucket/image.manifest.xml`.
 
 ### Register a new load balancer using the Management Console
 

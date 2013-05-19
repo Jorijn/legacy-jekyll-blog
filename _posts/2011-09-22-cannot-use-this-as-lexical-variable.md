@@ -3,7 +3,7 @@ layout: post
 title: "Cannot use $this as lexical variable"
 ---
 
-Since the beginning of version 5.3, PHP introduced Closures. People familiar with JavaScript might refer to them as @anonymous functions@. These closures allow you to do something like this:
+Since the beginning of version 5.3, PHP introduced Closures. People familiar with JavaScript might refer to them as `anonymous functions`. These closures allow you to do something like this:
 
 <?prettify?>
 	<?php
@@ -16,7 +16,7 @@ Since the beginning of version 5.3, PHP introduced Closures. People familiar wit
 
 	?>
 
-In my example I wanted to do certain action before and after I called a function. This action required access to the @$this@ variable to access to scope which holds the database class. I tried the following code:
+In my example I wanted to do certain action before and after I called a function. This action required access to the `$this` variable to access to scope which holds the database class. I tried the following code:
 
 <?prettify?>
 	<?php

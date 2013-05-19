@@ -21,7 +21,7 @@ The browser will fetch the first four scripts and will wait until they're downlo
 
 ### How do we improve this?
 
-This is simple. In the root directory of your website open up your @.htaccess@. Append the following lines:
+This is simple. In the root directory of your website open up your `.htaccess`. Append the following lines:
 
 <?prettify?>
 	<FilesMatch "\.combined\.(js|css)$">
