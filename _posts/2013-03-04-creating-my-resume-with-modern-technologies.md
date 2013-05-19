@@ -11,9 +11,9 @@ I recently decided it would be a fun project to grab my resume, made with Pages 
 * Compass
 * SASS
 * Webkit Retina graphics
-* @font-face
+* font-face CSS
 
-View the GitHub project here: "https://github.com/Jorijn/CV":https://github.com/Jorijn/CV
-View my resume here: "http://jorijn.github.io/CV/":http://jorijn.github.io/CV/
+View the GitHub project here: <https://github.com/Jorijn/CV><br />
+View my resume here: <http://jorijn.github.io/CV/>
 
 Since it's responsive, try resizing your browsers or viewing it on a phone or tablet! :-)

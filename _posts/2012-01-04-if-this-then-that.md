@@ -3,9 +3,9 @@ layout: post
 title: "If This Then That"
 ---
 
-I'm not going to write extensively about _ifttt_, but I would like to share its awesomeness. "If This Then That":http://ifttt.com/ (ifttt) hooks a lot of the current social websites together to an event-based system. 
+I'm not going to write extensively about _ifttt_, but I would like to share its awesomeness. [If This Then That](http://ifttt.com/) (ifttt) hooks a lot of the current social websites together to an event-based system.
 
-To show you how much of a nerd I am -- I just created a task which e-mails me to get going a bit more earlier to my car as usual because the temperature dropped below freezing point that night. 
+To show you how much of a nerd I am -- I just created a task which e-mails me to get going a bit more earlier to my car as usual because the temperature dropped below freezing point that night.
 
 Fortunately it is also possible to use ifttt for the good. Here are the current tasks I have created:
 

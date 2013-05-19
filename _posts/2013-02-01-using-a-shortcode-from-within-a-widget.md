@@ -7,6 +7,5 @@ For a project I was doing I needed to offer the flexibility to add buttons to a 
 
 After some searching I found out you can hook the filter for parsing the shortcodes to the widget hooks.
 
-<pre class="prettyprint">
-<?php add_filter('widget_text', 'do_shortcode'); ?>
-</pre>
+<?prettify?>
+	<?php add_filter('widget_text', 'do_shortcode'); ?>
