@@ -37,22 +37,25 @@ The best thing is, you only need three components on your main OS for this to wo
 
 Then, in the project folder add my repository as a submodule.
 
-<?prettify?>
-	$ git submodule add git@github.com:Jorijn/vagrant-chef.git
+{% highlight bash %}
+$ git submodule add git@github.com:Jorijn/vagrant-chef.git
+{% endhighlight %}
 
 Note; If you don't have Git for this project (although you should!) you can simply export and add it as a subdirectory.
 
 Copy the project configuration file to the root directory.
 
-<?prettify?>
-	$ cp vagrant-chef/vagrant/vagrantfiles/Vagrantfile .
+{% highlight bash %}
+$ cp vagrant-chef/vagrant/vagrantfiles/Vagrantfile .
+{% endhighlight %}
 
 ### Done!
 
 Voila, everything is in place. If you run the following command you're environment will be ready for work after it's done provisioning.
 
-<?prettify?>
-	$ vagrant up
+{% highlight bash %}
+$ vagrant up
+{% endhighlight %}
 
 By default, the box has a host-only network and is available on the IP `10.10.10.10`. I suggest adding `app.local` as a host to your hostfile. Apache is configured to be serving everything under the `public/` directory in your project folder.
 
