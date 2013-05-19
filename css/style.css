@@ -20,6 +20,15 @@ code {
     padding-right: 0.2em;
 }
 
+pre code {
+    background: inherit;
+    border: inherit;
+    border-radius: inherit;
+    font-size: inherit;
+    padding-left: inherit;
+    padding-right: inherit;
+}
+
 .highlight code {
     background: transparent;
     border: none;
@@ -138,7 +147,7 @@ sidebar {
     border: 1px solid #eee;
     float: right;
     background-color: #fff;
-    
+
     margin-left: 10px;
     margin-top: 20px;
 }
