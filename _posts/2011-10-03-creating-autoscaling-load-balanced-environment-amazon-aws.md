@@ -16,13 +16,13 @@ I'm going to assume you know your way around AWS and the Management Console.
 These commands will assume you have your secure certificates placed in `/mnt`. The following command will create a new image from your system and split it up in parts so you can upload it to S3.
 
 {% highlight bash %}
-	$ ec2-bundle-vol -d /mnt -k /mnt/pk-xxx.pem -c /mnt/cert-xxx.pem -u xxx -r i386
+$ ec2-bundle-vol -d /mnt -k /mnt/pk-xxx.pem -c /mnt/cert-xxx.pem -u xxx -r i386
 {% endhighlight %}
 
 Upon completion, upload them to a new bucket on S3. The `xxx` should be replaced with your access- and private-key.
 
 {% highlight bash %}
-	$ ec2-upload-bundle -b bucketnamehere -m /mnt/image.manifest.xml -a 'xxx' -s 'xxx'
+$ ec2-upload-bundle -b bucketnamehere -m /mnt/image.manifest.xml -a 'xxx' -s 'xxx'
 {% endhighlight %}
 
 Register your bundle in the AMI menu in the EC2 tab. Location to the manifest should be something like `nameofyourbucket/image.manifest.xml`.
