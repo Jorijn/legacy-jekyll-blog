@@ -1,174 +1,147 @@
 body {
-  font: 16px/1.7em ff-dagny-web-pro
+	font: 16px/1.7em ff-dagny-web-pro
 }
-
 pre {
-    background: none repeat scroll 0 0 #222222;
-    border-radius: 0.3em 0.3em 0.3em 0.3em;
-    color: white;
-    display: block;
-    font: 0.7em/1.4em Monaco,monospace;
-    padding: 0.6em;
+	background: none repeat scroll 0 0 #222222;
+	border-radius: 0.3em 0.3em 0.3em 0.3em;
+	color: white;
+	display: block;
+	font: 0.7em/1.4em Monaco, monospace;
+	padding: 0.6em;
 }
-
 code {
-    background: none repeat scroll 0 0 #F0F0F0;
-    border: 1px solid #E0E0E0;
-    border-radius: 0.2em 0.2em 0.2em 0.2em;
-    font-size: 0.9em;
-    padding-left: 0.2em;
-    padding-right: 0.2em;
+	background: none repeat scroll 0 0 #F0F0F0;
+	border: 1px solid #E0E0E0;
+	border-radius: 0.2em 0.2em 0.2em 0.2em;
+	font-size: 0.9em;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
 }
-
 pre code {
-    background: inherit;
-    border: inherit;
-    border-radius: inherit;
-    font-size: inherit;
-    padding-left: inherit;
-    padding-right: inherit;
+	background: inherit;
+	border: inherit;
+	border-radius: inherit;
+	font-size: inherit;
+	padding-left: inherit;
+	padding-right: inherit;
 }
-
 .highlight code {
-    background: transparent;
-    border: none;
-    font-size: 13px;
+	background: transparent;
+	border: none;
+	font-size: 13px;
 }
-
 h2 {
-    border-bottom: 1px solid #DDDDDD;
-    font-size: 1.8em;
-    line-height: 1.2em;
-    margin-bottom: -0.2em;
-    margin-top: 0.1em;
-    padding-bottom: 0.1em;
+	border-bottom: 1px solid #DDDDDD;
+	font-size: 1.7em;
+	line-height: 1.2em;
+	margin-bottom: -0.2em;
+	margin-top: 0.1em;
+	padding-bottom: 0.1em;
 }
 h3 {
-    font-size: 1.3em;
+	font-size: 1.3em;
 }
 h1 {
-    border-bottom: 1px solid #DDDDDD;
-    font-size: 2em;
-    font-weight: normal;
-    padding-bottom: 4px;
+	border-bottom: 1px solid #DDDDDD;
+	font-size: 2em;
+	font-weight: normal;
+	padding-bottom: 4px;
 }
-
 h1, h2, h3, h4, h5 {
-    font-family: "adelle";
-    font-weight: normal;
+	font-family:"adelle";
+	font-weight: normal;
 }
-
 a, a:visited, a:active {
-    border-bottom: 1px dotted #D3DFEE;
-    color: #004491;
-    text-decoration: none;
+	border-bottom: 1px dotted #D3DFEE;
+	color: #004491;
+	text-decoration: none;
 }
-
 .title a {
-    background: none repeat scroll 0 0 white;
-    border: medium none;
-    color: black;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+	background: none repeat scroll 0 0 white;
+	border: medium none;
+	color: black;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
 }
-
 .meta {
-  font-family: "ff-tisa-web-pro";
-  font-size: 0.9em;
-  font-weight: bold;
-  color: #999;
-  border-top: 1px solid #ddd;
-  padding-top: 0.1em;
-  padding-bottom: 0.1em;
-  margin-top: -0.6em;
+	font-family:"ff-tisa-web-pro";
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #999;
+	border-top: 1px solid #ddd;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	margin-top: -0.6em;
 }
-
 .meta span {
-  color: #004491;
-  text-decoration: none;
-  border-bottom: 1px dotted #d3dfee;
-  font-weight: normal;
+	color: #004491;
+	text-decoration: none;
+	border-bottom: 1px dotted #d3dfee;
+	font-weight: normal;
 }
-
 footer {
-    font-size: 14px;
+	font-size: 14px;
 }
-
 sidebar {
-/*  text-align: right;*/
-    text-align: justify;
+	/*  text-align: right;*/
+	text-align: justify;
 }
-
 sidebar h2 {
-    font-size: 20px;
-    margin-top: 12px;
+	font-size: 20px;
+	margin-top: 12px;
 }
-
 header {
-    margin-top: 50px;
-    margin-bottom: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
-
 #archive h2.title {
-    font-size: 18px;
+	font-size: 18px;
 }
-
 .post_icons {
-    text-align: right;
+	text-align: right;
 }
-
 sidebar {
-    font-size: 14px;
-    line-height: 25px;
+	font-size: 14px;
+	line-height: 25px;
 }
-
 .side-post {
-    padding-top: 60px;
+	padding-top: 60px;
 }
-
 #author {
-    font-size: 0.8em;
-    padding: 10px;
-    border: 1px solid #E3E3E3;
-    background-color: #F7F7F7;
-    margin-bottom: 25px;
-    line-height: 20px;
-    border-radius: 5px;
+	font-size: 0.8em;
+	padding: 10px;
+	border: 1px solid #E3E3E3;
+	background-color: #F7F7F7;
+	margin-bottom: 25px;
+	line-height: 20px;
+	border-radius: 5px;
 }
-
 #author h3 {
-    margin-left: 10px;
+	margin-left: 10px;
 }
-
 .about img {
-    max-width: 100px;
-    padding: 3px;
-    border: 1px solid #eee;
-    float: right;
-    background-color: #fff;
-
-    margin-left: 10px;
-    margin-top: 20px;
+	max-width: 100px;
+	padding: 3px;
+	border: 1px solid #eee;
+	float: right;
+	background-color: #fff;
+	margin-left: 10px;
+	margin-top: 20px;
 }
-
 .about {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
-
 sidebar p span {
-    font-size: 11px;
-    color: #ccc;
+	font-size: 11px;
+	color: #ccc;
 }
-
 .small_preview {
-    font-size: 16px;
+	font-size: 16px;
 }
-
 article img {
-    max-width: 100%;
+	max-width: 100%;
 }
-
 /**
  * dear contracter;
  *
@@ -176,22 +149,46 @@ article img {
  *
  * this is built upon a three year old website, its made responsive, not built responsive.
  */
+
 /* ===== == = === 48em (768px) === = == ===== */
-@media only screen and (max-width : 950px) {
-    body {
-        padding: 10px;
-        min-width: auto;
-    }
+ @media only screen and (max-width : 950px) {
+	body {
+		padding: 10px;
+		min-width: auto;
+	}
+	.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+		float: none;
+	}
+	.container_12 .grid_9, .container_16 .grid_12, .container_12 .grid_3, .container_16 .grid_4, .container_12 .grid_12, .container_16 .grid_16, .container_12, .container_16 {
+		width: auto;
+	}
+	.github_a {
+		display: none;
+	}
+}
 
-    .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
-        float: none;
-    }
+.post_index {
+	display: table;
+}
 
-    .container_12 .grid_9, .container_16 .grid_12, .container_12 .grid_3, .container_16 .grid_4, .container_12 .grid_12, .container_16 .grid_16, .container_12, .container_16 {
-        width: auto;
-    }
+.post_index .post_row {
+	display: table-row;
+	border-bottom: 1px solid #dcdcdc;
+}
 
-    .github_a {
-        display: none;
-    }
+.post_index .date, .post_index .ptitle, .post_index .words {
+	display: table-cell;
+}
+
+.post_index .date {
+	width: 100px;
+}
+
+.post_index .words {
+	width: 150px;
+	text-align: right;
+}
+
+h2 a.archive {
+	font-size: 0.6em;
 }

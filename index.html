@@ -1,22 +1,22 @@
 ---
 layout: default
 title: Jorijn Schrijvershof
+is_home: true
 ---
 
-  {% for post in site.posts limit:1 %}
-<article class="grid_9 post">
-    <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <p>{{ post.content }}</p>
-    <div class="meta">
-        <span><a href="http://blog.jorijn.com">Jorijn Schrijvershof</a></span> ·
-        <span>{{ post.date | date:"%B %d, %Y" }}</span> ·
-        <span>{{ post.content | number_of_words }} words</span>
-        {% if page.tags |size > 0 %}
-        <span>Tags: {{ page.tags |join:", " }}</span>
-        {% endif %}
-    </div>
+<section class="grid_9">
+    <h2>Hi! I am Jorijn Schrijvershof, Freelance Web Developer</h2>
+    <p>I'm a 23-year old Web Developer located in Helmond, The Netherlands. I'm a passionate about front-end development but I know my way with back-end systems as well. I specialize in modern technologies such as Responsive Development, JavaScript MVC libraries and PHP solutions like Symfony2 and Laravel.</p>
+    <p>You can hire me to work for you. I do projects from my own home-office or I'm available for work on your location. Want to know more? Be sure to give my <a href="http://www.linkedin.com/in/jorijnschrijvershof" title="Jorijn Schrijvershof  | LinkedIn">LinkedIn</a> or <a href="http://jorijn.com/" title="Jorijn Schrijvershof - Freelance Web Developer">professional website</a> a visit.</p>
 
-    <h3>Leave a message</h3>
-    <div class="fb-comments" data-num-posts="5" data-width="620" data-href="{{ site.url }}{{ post.url }}"></div>
-</article>
-  {% endfor %}
+    <h3>So far I've written these articles;</h3>
+    <article class="post_index">
+    {% for post in site.posts %}
+        <div class="post_row">
+        <span class="date">{{ post.date | date:"%m-%d-%Y" }}</span>
+        <span class="ptitle"><a href="{{ post.url }}">{{ post.title }}</a></span>
+        <span class="words">{{ post.content | number_of_words }} words</span>
+        </div>
+    {% endfor %}
+    </article>
+</section>
