@@ -168,3 +168,30 @@ sidebar p span {
 article img {
     max-width: 100%;
 }
+
+/**
+ * dear contracter;
+ *
+ * please don't use the following code for evaluation wether i'm a suitable candidate.
+ *
+ * this is built upon a three year old website, its made responsive, not built responsive.
+ */
+/* ===== == = === 48em (768px) === = == ===== */
+@media only screen and (max-width : 950px) {
+    body {
+        padding: 10px;
+        min-width: auto;
+    }
+
+    .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+        float: none;
+    }
+
+    .container_12 .grid_9, .container_16 .grid_12, .container_12 .grid_3, .container_16 .grid_4, .container_12 .grid_12, .container_16 .grid_16, .container_12, .container_16 {
+        width: auto;
+    }
+
+    .github_a {
+        display: none;
+    }
+}
